@@ -95,3 +95,25 @@ const podeEntrar =
     idade >= 18 && possuiIngresso;
 
 console.log(podeEntrar);
+
+
+
+const nota = 82;
+
+if (nota >= 90) {
+    console.log("Excelente");
+} else if (nota >= 75) {
+    console.log("Muito bom");
+} else if (nota >= 60) {
+    console.log("Aprovado");
+} else {
+    console.log("Reprovado");
+}
+
+
+
+
+// recursos do console
+console.log("Informação");
+console.warn("Atenção");
+console.error("Erro");
